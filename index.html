@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Listing</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef9f3;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(145deg, #ffffff, #ffe6cc);
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 2px solid #ff4500;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff4500;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 10px;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 150px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            background: #fff5e1;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            transition: transform 0.2s;
+        }
+
+        li:hover {
+            transform: scale(1.02);
+            background: #ffe4cc;
+        }
+
+        .item-name {
+            font-weight: bold;
+            color: #8b0000;
+        }
+
+        .item-price {
+            color: #228b22;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        footer a {
+            color: #ff4500;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .christmas-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNDAiIGhlaWdodD0iMjY0Ij48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsYXNzPSJwYWdlLTEiPjxnIGNsYXNzPSJwYWdlLTFfX2NjLWxvZ28tc2hhcGUtZmxhdHRlbmVkIj48ZyBjbGFzcz0icGFnZS0xX19jYy1sb2dvLXNoYXBlLWZsYXR0ZW5lZF9fY2MtbG9nby1ncmVlbiI+PHBhdGggZmlsbD0iIzM1Qjg2RCIgZD0iTTEzOS41MTIgNS41NDdsNzkuNTExIDQ1LjkwNmE0MCA0MCAwIDAxMjAgMzQuNjQxdjkxLjgxMmE0MCA0MCAwIDAxLTIwIDM0LjY0MWwtNzkuNTExIDQ1LjkwNmE0MCA0MCAwIDAxLTQwIDBMMjAgMjEyLjU0N2E0MCA0MCAwIDAxLTIwLTM0LjY0MVY4Ni4wOTRhNDAgNDAgMCAwMTIwLTM0LjY0MUw5OS41MTIgNS41NDdhNDAgNDAgMCAwMTQwIDB6IiBjbGFzcz0icGFnZS0xX19jYy1sb2dvLXNoYXBlLWZsYXR0ZW5lZF9fY2MtbG9nby1ncmVlbl9fcG9seWdvbiIvPjxwYXRoIGZpbGw9IiMxQTIwMkMiIGQ9Ik0xMjkuNTMyIDQ5LjgwMWw1My41OTEgMzEuODEzYTUgNSAwIDAxLS4wNzUgOC42NDNsLTI1LjA2MyAxNC4yOTVhMTAgMTAgMCAwMS05Ljk2OS0uMDM1bC0yMy40OTQtMTMuNjE2YTEwIDEwIDAgMDAtOS43MjgtLjE2M2wtLjI5My4xNjMtMjggMTYuMjFhMTAgMTAgMCAwMC00Ljk4NCA4LjMzbC0uMDA1LjMyNXYzMi40NjhhMTAgMTAgMCAwMDQuNzEyIDguNDg4bC4yNzcuMTY3IDI4IDE2LjIxYTEwIDEwIDAgMDA5LjcyOC4xNjNsLjI5My0uMTYzIDIzLjQ5NC0xMy42MTZhMTAgMTAgMCAwMTkuOTY4LS4wMzRsMjUuMDY0IDE0LjI5NGE1IDUgMCAwMS4wNzUgOC42NDNsLTUzLjU5IDMxLjgxM2EyMCAyMCAwIDAxLTIwLjA0MiAwbC01Ni0zMi40MjJhMjAgMjAgMCAwMS05Ljk4LTE3LjMwOFY5OS41M2EyMCAyMCAwIDAxOS45OC0xNy4zMDhsNTYtMzIuNDIyYTIwIDIwIDAgMDEyMC4wNDEgMHoiIGNsYXNzPSJwYWdlLTFfX2NjLWxvZ28tc2hhcGUtZmxhdHRlbmVkX19jYy1sb2dvLWdyZWVuX19wYXRoIi8+PC9nPjwvZz48L2c+PC9zdmc+"
+            alt="CodeChem Logo" class="logo">
+        <h1>Ценовник</h1>
+
+        <ul>
+            <li>
+                <span class="item-name">Колаче: Цртано</span>
+                <span class="item-price">80</span>
+            </li>
+            <li>
+                <span class="item-name">Колаче: Oбично</span>
+                <span class="item-price">30</span>
+            <li>
+                <span class="item-name">Слатко</span>
+                <span class="item-price">130</span>
+            </li>
+            </li>
+            <li>
+                <span class="item-name">Книга</span>
+                <span class="item-price">100</span>
+            </li>
+            <li>
+                <span class="item-name">Грепка</span>
+                <span class="item-price">80</span>
+            </li>
+            <li>
+                <span class="item-name">Честитка</span>
+                <span class="item-price">50</span>
+            </li>
+            <li>
+                <span class="item-name">Свеќа</span>
+                <span class="item-price">50</span>
+            </li>
+            <li>
+                <span class="item-name">Куќа светилка</span>
+                <span class="item-price">1500</span>
+            </li>
+            <li>
+                <span class="item-name">Пакетче колаче</span>
+                <span class="item-price">60</span>
+            </li>
+        </ul>
+        <footer>
+            &copy; 2024 Team Violet
+        </footer>
+    </div>
+</body>
+
+</html>
